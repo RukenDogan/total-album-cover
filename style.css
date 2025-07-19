@@ -1,0 +1,86 @@
+/* The most similar font that I found */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,800&display=swap');
+
+*
+{
+  text-align: center;
+  font-size: 150px;
+  text-transform: uppercase;
+  mix-blend-mode: multiply;
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 2px;
+}
+
+.tot1
+{
+  position: relative;
+  color: #fef200;
+  opacity: 0.9;
+}
+
+.tot2
+{
+  position: absolute;
+  top: -4px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  color: #ec008c;
+  opacity: 0.9;
+}
+
+.tot3
+{
+  position: absolute;
+  top: 12px;
+  left: -22px;
+  width: 100%;
+  height: 100%;
+  color: #00acef;
+  opacity: 0.9;
+}
+
+p
+{
+  font-size: 20px;
+  text-decoration: overline black;
+  text-transform: none;
+}
+
+
+@media screen and (max-width: 950px)
+{
+  *
+  {
+    font-size: 100px;
+  }
+  
+  .tot1
+  {
+    position: relative;
+    color: #fef200;
+  }
+
+.tot2
+  {
+    top: 0px;
+    left: -6px;
+  }
+
+.tot3
+  {
+    top: 10px;
+    left: -15px;
+  }
+  
+  img
+  {
+    width: 300px;
+  }
+  
+  p
+  {
+    text-decoration: none;
+    border-top: thick double;
+  }
+}

@@ -1,8 +1,8 @@
 # Recréation de la pochette d'album "Total" : superposition typographique avec `mix-blend-mode`
 
 ## Description
-Exercice d’exploration de la propriété CSS `mix-blend-mode` pour créer un effet de superposition colorée sur du texte.
 L'objectif était de recréer le visuel de la pochette de l'album "Total: From Joy Division to New Order".
+Cet exercice m'a permis de découvrir et d'expérimenter la propriété CSS `mix-blend-mode`, utilisée ici pour créer un effet de superposition colorée sur du texte.
 La page affiche trois couches de texte "Total" en couleurs différentes, avec un effet de mélange visuel.  
 La référence visuelle est placée dans le footer sous forme d’une image de la pochette d’album originale.
 
